@@ -24,7 +24,7 @@ public class Main {
         System.out.println();
 
         for (int i = 0; i < index; i++){                                                // decoding part
-            letter2[i] = (char)((table[i]+1)/2);                                        // x = ( x +1 ) * 2
+            letter2[i] = (char)((table[i]+1)/2);                                        // x = ( x +1 ) / 2
             System.out.print(letter2[i]);
         }
     }
