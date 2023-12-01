@@ -1,3 +1,6 @@
+// Java dla żyjących
+
+
 package com.inherito.test.cipher;
 
 public class Main {
