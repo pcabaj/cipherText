@@ -1,10 +1,20 @@
+// Java dla żyjących
+
+
 package com.inherito.test.cipher;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        String sb = new String("Magiczny tekst do zaszyfrowania");              //constructor
+
+
+
+        String sb = new String("Magiczny tekst do zaszyfrowania");
+
+        Scanner scanner = new Scanner(System.in);
+        sb = scanner.nextLine();
+                                                                                         //constructor
         System.out.println(sb);
         int index = sb.length();                                                         //number of characters
         System.out.println(index + " Characters");
