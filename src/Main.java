@@ -10,17 +10,17 @@ public class Main {
 
 
 
-        String sb = new String("Magiczny tekst do zaszyfrowania");
+        String str = new String("Magiczny tekst do zaszyfrowania");
 
         Scanner scanner = new Scanner(System.in);
-        sb = scanner.nextLine();
+        str = scanner.nextLine();
                                                                                          //constructor
         System.out.println(sb);
-        int index = sb.length();                                                         //number of characters
+        int index = str.length();                                                         //number of characters
         System.out.println(index + " Characters");
 
 
-        char[] letter = sb.toCharArray();                                               //transform of array
+        char[] letter = str.toCharArray();                                               //transform of array
         char[] letter2 = new char[index];
         int [] table = new int[index];
 
@@ -28,7 +28,7 @@ public class Main {
         for (int i = 0; i < index; i++){                                                //coding part
             table[i] = (int)letter[i];                                                  //char to ASCII
             table[i] = table[i]* 2 -1;                                                  // x = x * 2 - 1
-            System.out.print((char)table[i]);
+            System.out.print((char)table[i]);                                           // taka dekoracja ładna
         }
 
         System.out.println();
