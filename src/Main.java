@@ -3,6 +3,9 @@
 
 package com.inherito.test.cipher;
 
+// Jak to wszystko pamiętać?
+// Ano, da się.
+
 public class Main {
 
     public static void main(String[] args) {
