@@ -10,11 +10,10 @@ public class Main {
 
 
 
-        String str = new String("Magiczny tekst do zaszyfrowania");
-
+        
         Scanner scanner = new Scanner(System.in);
-        str = scanner.nextLine();
-                                                                                         //constructor
+        String str = scanner.nextLine();
+
         System.out.println(sb);
         int index = str.length();                                                         //number of characters
         System.out.println(index + " Characters");
@@ -31,7 +30,7 @@ public class Main {
             System.out.print((char)table[i]);                                           // taka dekoracja ładna
         }
 
-        System.out.println();
+        System.out.println("I dekodowanie");
 
         for (int i = 0; i < index; i++){                                                // decoding part
             letter2[i] = (char)((table[i]+1)/2);                                        // x = ( x +1 ) / 2
